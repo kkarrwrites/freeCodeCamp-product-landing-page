@@ -20,3 +20,68 @@ body, footer, h1, h2, h3, h4, h5, h6, p {
 a, a:visited {
     text-decoration: none;
 }
+
+/* Background */
+
+body {
+    background-color: #eee;
+}
+
+footer {
+    background-color: #ddd;
+}
+
+/* Navbar */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0 12px 36px;
+  }
+
+#header-img {
+    width: 300px;
+}
+
+#nav-bar {
+    display: flex;
+    padding: 12px 36px 12px 0;
+}
+
+.nav-link {
+    color: #000;
+    margin-left: 84px;
+}
+
+/* Header and Form */
+
+h2, form {
+    text-align: center;
+}
+
+h2 {
+    margin: 0 0 12px 0;
+}
+
+#email {
+    padding: 6px 93px 6px 6px;
+    margin: 0 0 12px 0;
+}
+
+#submit {
+    font-size: 12pt;
+    border: none;
+    color: #000;
+    background-color: #f1c40f;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 6px 24px;
+    margin: 0 0 100px 0;
+}
+
+#submit:hover {
+    background-color: orange;
+    transition: background-color 1s;
+}

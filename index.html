@@ -10,6 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
   <script defer src="javascript/javascript.js"></script>
 
 </head>
@@ -19,30 +20,40 @@
   <header id="header">
     <img id="header-img" src="resources/header-img.png">
     <nav id="nav-bar">
-      <a href="#" class="nav-link">Features</a>
-      <a href="#" class="nav-link">How It Works</a>
-      <a href="#" class="nav-link">Pricing</a>
+      <a href="#features-section" class="nav-link">Features</a>
+      <a href="#how-section" class="nav-link">How It Works</a>
+      <a href="#pricing-section" class="nav-link">Pricing</a>
     </nav>  
   </header>
 
-  Handcrafted, home-made masterpieces
+  <h2>Handcrafted, home-made masterpieces</h2>
 
-  Enter your email address
+  <form id="form">
+    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+    <br><input type="submit" id="submit" value="Get Started">
+  </form>
 
-  Get Started
-
-  Premium Materials
+  <section id="features-section"><i class="fas fa-fire"></i>Premium Materials
   Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
   
-  Fast Shipping
+  <i class="fas fa-truck"></i>Fast Shipping
   We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.
   
-  Quality Assurance
-  For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
+  <i class="fas fa-battery-full"></i>Quality Assurance
+  For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</section>
 
-  <video id="video"></video>
+  <section id="how-section">
+    <iframe
+      id="video"
+      height="315"
+      width="600"
+      src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </section>
 
-  Tenor Trombone
+  <section id="pricing-section">Tenor Trombone
   $600
   Lorem ipsum.
   Lorem ipsum.
@@ -64,7 +75,7 @@
   Great for Jazz Bands
   Lorem ipsum dolor.
   Lorem ipsum.
-  Select
+  Select</section>
 
 </body>
 
